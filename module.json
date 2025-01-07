@@ -20,5 +20,4 @@
   "readme": "README.md",
   "scripts": ["scripts/main.js"],
   "styles": ["styles/soundboard.css"],
-  "packs
 }
