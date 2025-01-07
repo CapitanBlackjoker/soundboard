@@ -19,7 +19,7 @@
     "download": "https://github.com/CapitanBlackjoker/soundboard/archive/refs/heads/main.zip",
     "manifest": "https://raw.githubusercontent.com/CapitanBlackjoker/soundboard/refs/heads/main/module.json",
     "readme": "README.md",
-    "esmodules": ["module.json],
+    "esmodules": ["module.json"],
     "styles": ["styles/soundboard.css"],
-    "scripts": ["scripts/main.js]
+    "scripts": ["scripts/main.js"]
 }
