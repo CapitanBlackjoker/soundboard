@@ -3,7 +3,7 @@
   "title": "SoundBoard v11",
   "description": "A module to play sounds and send them to specific players in Foundry VTT v11.",
   "version": "1.0.0",
-  "author": "Adaptat per ChatGPT",
+  "author": "Adaptat per Blackie",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
