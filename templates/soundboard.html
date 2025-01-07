@@ -1,12 +1,19 @@
-
 <div class="soundboard">
   <h2>SoundBoard</h2>
+  <label for="player-select">Envia a jugador:</label>
+  <select name="player-select">
+    <option value="" disabled selected>Selecciona un jugador</option>
+    {{#each players}}
+    <option value="{{this.id}}">{{this.name}}</option>
+    {{/each}}
+  </select>
+
   <ul>
     {{#each sounds}}
     <li class="sound-item">
-      <span>{{this}}</span>
-      <button class="play-sound" data-src="{{this}}">Play Locally</button>
-      <button class="send-sound" data-src="{{this}}">Send to Players</button>
+      <span>{{@index}}. {{this}}</span>
+      <button class="play-sound" data-src="{{this}}">Reprodueix Localment</button>
+      <button class="send-sound" data-src="{{this}}">Envia a Jugador</button>
     </li>
     {{/each}}
   </ul>
