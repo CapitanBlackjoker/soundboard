@@ -1,23 +1,25 @@
 {
-  "id": "soundboard-v11",
-  "title": "SoundBoard v11",
-  "description": "A module to play sounds and send them to specific players in Foundry VTT v11.",
-  "version": "1.0.0",
-  "authors": [
-    {
-      "name": "Adaptat per Blackie",
-      "contact": "https://github.com/teu-repositori"
-    }
-  ],
-  "compatibleCoreVersion": {
-    "min": "11",
-    "max": "11"
-  },
-  "url": 
-  "url": "https://github.com/CapitanBlackjoker/soundboard",
-  "manifest": "https://raw.githubusercontent.com/CapitanBlackjoker/soundboard/refs/heads/main/module.json",
-  "download": "https://github.com/CapitanBlackjoker/soundboard/archive/refs/heads/main.zip",
-  "readme": "README.md",
-  "scripts": ["scripts/main.js"],
-  "styles": ["styles/soundboard.css"],
+    "id": "soundboard-v11",
+    "title": "Soundboard-v11",
+    "description": "A module to play sounds and send them to specific players in Foundry VTT v11",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimun": "11",
+        "verified": "11"
+    },
+    "authors": [
+        {
+            "name": "Blackie",
+            "url": "https://github.com/CapitanBlackjoker/soundboard",
+            "email": "jetasrol@gmail.com",
+            "discord": "capitanblackjoker"
+        }
+    ],
+    "url": "https://github.com/CapitanBlackjoker/soundboard",
+    "download": "https://github.com/CapitanBlackjoker/soundboard/archive/refs/heads/main.zip",
+    "manifest": "https://raw.githubusercontent.com/CapitanBlackjoker/soundboard/refs/heads/main/module.json",
+    "readme": "README.md",
+    "esmodules": ["module.json],
+    "styles": ["styles/soundboard.css"],
+    "scripts": ["scripts/main.js]
 }
