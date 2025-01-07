@@ -1,0 +1,19 @@
+{
+  "name": "soundboard-v11",
+  "title": "SoundBoard v11",
+  "description": "A module to play sounds and send them to specific players in Foundry VTT v11.",
+  "version": "1.0.0",
+  "author": "Adaptat per ChatGPT",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "scripts": ["scripts/main.js"],
+  "esmodules": [],
+  "styles": [],
+  "packs": [],
+  "languages": [],
+  "url": "https://github.com/teu-repositori/soundboard-v11",
+  "manifest": "https://teu-repositori.github.io/soundboard-v11/module.json",
+  "download": "https://teu-repositori.github.io/soundboard-v11/soundboard-v11.zip"
+}

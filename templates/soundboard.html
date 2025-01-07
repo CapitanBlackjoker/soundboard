@@ -1,0 +1,13 @@
+
+<div class="soundboard">
+  <h2>SoundBoard</h2>
+  <ul>
+    {{#each sounds}}
+    <li class="sound-item">
+      <span>{{this}}</span>
+      <button class="play-sound" data-src="{{this}}">Play Locally</button>
+      <button class="send-sound" data-src="{{this}}">Send to Players</button>
+    </li>
+    {{/each}}
+  </ul>
+</div>
