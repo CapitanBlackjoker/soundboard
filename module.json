@@ -1,19 +1,24 @@
 {
-  "name": "soundboard-v11",
+  "id": "soundboard-v11",
   "title": "SoundBoard v11",
   "description": "A module to play sounds and send them to specific players in Foundry VTT v11.",
   "version": "1.0.0",
-  "author": "Adaptat per Blackie",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+  "authors": [
+    {
+      "name": "Adaptat per Blackie",
+      "contact": "https://github.com/teu-repositori"
+    }
+  ],
+  "compatibleCoreVersion": {
+    "min": "11",
+    "max": "11"
   },
-  "scripts": ["scripts/main.js"],
-  "esmodules": [],
-  "styles": [],
-  "packs": [],
-  "languages": [],
+  "url": 
   "url": "https://github.com/CapitanBlackjoker/soundboard",
-  "manifest": "https://github.com/CapitanBlackjoker/soundboard/tree/main/module.json",
-  "download": "https://github.com/CapitanBlackjoker/soundboard/archive/refs/heads/main.zip"
+  "manifest": "https://raw.githubusercontent.com/CapitanBlackjoker/soundboard/refs/heads/main/module.json",
+  "download": "https://github.com/CapitanBlackjoker/soundboard/archive/refs/heads/main.zip",
+  "readme": "README.md",
+  "scripts": ["scripts/main.js"],
+  "styles": ["styles/soundboard.css"],
+  "packs
 }
